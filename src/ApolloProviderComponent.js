@@ -6,7 +6,7 @@ import { ApolloClient, InMemoryCache, createHttpLink } from '@apollo/client';
 import { ApolloProvider } from '@apollo/react-hooks';
 
 const httpLink = createHttpLink({
-    uri: 'http://localhost:5000'
+    uri: 'https://rocky-hollows-59588.herokuapp.com/'
 })
 
 const authLink = setContext(()=>{
