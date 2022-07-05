@@ -4,7 +4,7 @@ import { Button, Card, Grid , Icon, Image, Label, Form} from 'semantic-ui-react'
 import moment from 'moment';
 import LikeButton from '../components/LikeButton';
 import { AuthContext } from '../context/auth';
-import { useParams, useNavigate, Navigate } from 'react-router-dom';
+import { useParams, useNavigate} from 'react-router-dom';
 import DeleteButton from '../components/DeleteButton';
 import {useQuery, useMutation} from '@apollo/react-hooks'
 
